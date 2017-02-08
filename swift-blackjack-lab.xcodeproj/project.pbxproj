@@ -19,6 +19,11 @@
 		1B9BCC101D3027580080E45D /* DealerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BCC0F1D3027580080E45D /* DealerSpec.swift */; };
 		1B9BCC121D3027720080E45D /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BCC111D3027720080E45D /* CardSpec.swift */; };
 		27D170B89F7408C8EE2BCB9A /* Pods_swift_blackjack_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404F70BE083BCE33FAE30C91 /* Pods_swift_blackjack_labTests.framework */; };
+		8857C7D61E4A7E690037CADD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857C7D51E4A7E690037CADD /* Card.swift */; };
+		8857C7D81E4A7E840037CADD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857C7D71E4A7E840037CADD /* Deck.swift */; };
+		8857C7DA1E4A7E930037CADD /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857C7D91E4A7E930037CADD /* House.swift */; };
+		8857C7DC1E4A7EA10037CADD /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857C7DB1E4A7EA10037CADD /* Dealer.swift */; };
+		8857C7DE1E4A7EC10037CADD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857C7DD1E4A7EC10037CADD /* Player.swift */; };
 		9270B07079B11307409944C5 /* Pods_swift_blackjack_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A3AC27C31E30B3B95AF9D3 /* Pods_swift_blackjack_lab.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		404F70BE083BCE33FAE30C91 /* Pods_swift_blackjack_labTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_blackjack_labTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43357FF39272C5EE2B29D509 /* Pods-swift-blackjack-lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-blackjack-lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-blackjack-lab/Pods-swift-blackjack-lab.debug.xcconfig"; sourceTree = "<group>"; };
 		77283629B29EE8024C1AD065 /* Pods-swift-blackjack-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-blackjack-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-blackjack-labTests/Pods-swift-blackjack-labTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8857C7D51E4A7E690037CADD /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8857C7D71E4A7E840037CADD /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		8857C7D91E4A7E930037CADD /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		8857C7DB1E4A7EA10037CADD /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		8857C7DD1E4A7EC10037CADD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D1A3AC27C31E30B3B95AF9D3 /* Pods_swift_blackjack_lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_blackjack_lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D57171BEE7284327A5795C /* Pods-swift-blackjack-lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-blackjack-lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-blackjack-lab/Pods-swift-blackjack-lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +115,11 @@
 				1B7BC42F1D301D6D00454AAB /* Assets.xcassets */,
 				1B7BC4311D301D6D00454AAB /* LaunchScreen.storyboard */,
 				1B7BC4341D301D6D00454AAB /* Info.plist */,
+				8857C7D51E4A7E690037CADD /* Card.swift */,
+				8857C7D71E4A7E840037CADD /* Deck.swift */,
+				8857C7DD1E4A7EC10037CADD /* Player.swift */,
+				8857C7D91E4A7E930037CADD /* House.swift */,
+				8857C7DB1E4A7EA10037CADD /* Dealer.swift */,
 			);
 			path = "swift-blackjack-lab";
 			sourceTree = "<group>";
@@ -345,7 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8857C7D81E4A7E840037CADD /* Deck.swift in Sources */,
 				1B7BC42B1D301D6D00454AAB /* ViewController.swift in Sources */,
+				8857C7DC1E4A7EA10037CADD /* Dealer.swift in Sources */,
+				8857C7D61E4A7E690037CADD /* Card.swift in Sources */,
+				8857C7DE1E4A7EC10037CADD /* Player.swift in Sources */,
+				8857C7DA1E4A7E930037CADD /* House.swift in Sources */,
 				1B7BC4291D301D6C00454AAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
