@@ -36,6 +36,8 @@ class Dealer {
         return false
     }
     func deal () {
+        deck.shuffle()
+        print (deck.description)
         player.stayed = false
         house.stayed = false
         player.cards.removeAll()

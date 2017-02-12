@@ -87,8 +87,11 @@ func sortCards(_ cardArray: [Card])-> [Card]{
 }
 
 func descriptionFor(_ cardArray: [Card]) -> String {
-    let output = String(describing: sortCards(cardArray))
-    return output
+    var description = ""
+    for card in cardArray{
+        description += card.description + " "
+    }
+    return description
 }
 
 let blackJackValues: [String : UInt] = [
